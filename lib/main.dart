@@ -1,4 +1,5 @@
-import 'package:apis_practice/posts_screen.dart';
+import 'package:apis_practice/photos_screen.dart';
+// import 'package:apis_practice/posts_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,8 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Flutter Demo',
-      home: PostsScreen(),
+      home: PhotosScreen(),
     );
   }
 }
-
