@@ -1,5 +1,6 @@
 // import 'package:apis_practice/photos_screen.dart';
-import 'package:apis_practice/users_screen.dart';
+import 'package:apis_practice/user_data_screen.dart';
+// import 'package:apis_practice/users_screen.dart';
 // import 'package:apis_practice/posts_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Flutter Demo',
-      home: UserScreen(),
+      home: UsersDataScreen(),
     );
   }
 }
