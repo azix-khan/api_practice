@@ -3,6 +3,8 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart';
 
+import 'home_screen.dart';
+
 class SignUpScreen extends StatefulWidget {
   const SignUpScreen({super.key});
 
@@ -68,6 +70,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
               onTap: () {
                 login(emailController.text.toString(),
                     passwordController.text.toString());
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => HomeScreen()));
               },
               child: Container(
                 height: 50,
